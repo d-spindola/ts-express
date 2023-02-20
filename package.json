@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "ts-express-server",
   "version": "1.0.0",
   "main": "dist/src/index.js",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "dev": "ts-node-dev --watch .env, src src/index.ts",
     "test": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
-    "lint": "npx eslint src"
+    "lint": "eslint src"
   },
   "dependencies": {
     "cors": "^2.8.5",
